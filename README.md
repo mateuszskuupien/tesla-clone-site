@@ -9,4 +9,13 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
  <p align="center">
   <img src="/screenshots/Screenshot_1.png">
   <img src="/screenshots/Screenshot_2.png">
+  <img src="/screenshots/Screenshot_3.png">
+  <img src="/screenshots/Screenshot_4.png">
+  <img src="/screenshots/Screenshot_5.png">
+  <img src="/screenshots/Screenshot_6.png">
+  <h3>Last Section with Terms & Conditions</h3>
+  <img src="/screenshots/Screenshot_7.png">
 </p>
+
+<h2>Built With</h2>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
