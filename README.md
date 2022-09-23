@@ -34,3 +34,5 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
   
   <h2>Conclusion</h2>
   To emphasize, this is my first *project*. All I wanted is to practice my HTML&CSS skills. Im currently at 20% of Bootcamp and I'm newbie. This project will be probably deleted later after some advices and remarks. Thanks to everyone who found a minute to take a look at my code. All I want is constructive criticism and comments about my code and development behavior.
+  
+  <i>Post Scriptum</i>This is also my first time on github. These are my first steps, so I'll be grateful for some advice and remarks! Thank you so much - please be easygoing.
