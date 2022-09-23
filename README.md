@@ -6,5 +6,7 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
   
   
   <h2>Screenshots</h2>
-  ![image](https://user-images.githubusercontent.com/114222832/191933103-4e1f0df3-7e95-4804-a726-b403efbd3236.png)
-
+ <p align="center">
+  <img src="imgs/Screenshot_1">
+  <img src="/imgs/Screenshot_1">
+</p>
