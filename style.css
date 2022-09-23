@@ -145,7 +145,7 @@ table {
 }
 
 .container1 {
-    background-image: url(imgs/tesla3.jfif;
+    background-image: url(imgs/tesla3.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -205,7 +205,7 @@ table {
 }
 
 .container7 {
-    background-image: url('accesories.jfif');
+    background-image: url(imgs/accesories.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
