@@ -1,0 +1,346 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 0.7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7 {
+    width: 100%;
+    height: 1000px;
+}
+
+.container1 {
+    background-image: url('tesla3.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container2 {
+    background-image: url('tesla.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container3 {
+    background-image: url('teslas.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container4 {
+    background-image: url('teslax.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container5 {
+    background-image: url('solar-panels.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container6 {
+    background-image: url('solar-roof.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.container7 {
+    background-image: url('accesories.jfif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+/* NAVIGATION START*/
+nav {
+    overflow: hidden;
+    background-color: none;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.nav-link {
+    color: rgb(28, 28, 28);
+    text-align: center;
+    padding: 6px 12px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 13px;
+}
+
+.nav-main-links {
+    margin-left: 100px;
+}
+
+.nav-side-links {
+    padding-right: 32px;
+}
+
+/* TESLA LOGO BRAND */
+.tesla-logo {
+    width: 120px;
+    padding-left: 48px;
+    padding-right: 12px;
+}
+
+/* TESLA LOGO BRAND */
+
+.nav-link:hover {
+    background-color: rgba(116, 116, 116, 0.1);
+    border-radius: 5px;
+}
+
+/* NAVIGATION END*/
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-top: 170px;
+}
+
+/* CONTENT ON IMAGES START*/
+a.touchless-delivery {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    border-bottom: 1px solid black;
+}
+
+a.touchless-delivery:hover {
+    border-width: 2px;
+    transition: ease-in 0.2s;
+}
+
+p {
+    color: rgb(28, 28, 28);
+    font-size: 0.95em;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 450px;
+
+}
+
+.custom-order,
+.shop-now {
+    text-decoration: none;
+    padding: 0px 75px;
+    margin-right: 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+    background-color: rgba(23, 26, 32, 0.8);
+    backdrop-filter: blur(8px);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.shop-now {
+    background-color: rgba(13, 13, 13, 0.949);
+    padding: 0px 100px;
+}
+
+.existing-inventory,
+.learn-more {
+    text-decoration: none;
+    padding: 0px 75px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+    background-color: rgba(242, 242, 242, 0.847);
+    backdrop-filter: blur(8px);
+    color: rgba(23, 26, 32, 0.907);
+    border: none;
+    border-radius: 5px;
+}
+
+/* CONTENT ON IMAGES END */
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+/* FOOTER */
