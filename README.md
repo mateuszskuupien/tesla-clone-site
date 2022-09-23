@@ -18,4 +18,4 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
 </p>
 
 <h2>Built With</h2>
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+image src="https://camo.githubusercontent.com/97cfeca0dbaee6a8e0b8e0109ef2d00707615dfe8dc9315f9a9a07eace3d1103/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c2d6f72616e6765"
