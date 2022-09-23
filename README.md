@@ -7,6 +7,6 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
   
   <h2>Screenshots</h2>
  <p align="center">
-  <img src="screenshots/Screenshot_1">
-  <img src="screenshots/Screenshot_2">
+  <img src="/screenshots/Screenshot_1">
+  <img src="/screenshots/Screenshot_2">
 </p>
