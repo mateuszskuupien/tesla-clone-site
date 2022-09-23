@@ -145,7 +145,7 @@ table {
 }
 
 .container1 {
-    background-image: url(/imgs/tesla3.jfif;
+    background-image: url(imgs/tesla3.jfif;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -155,7 +155,7 @@ table {
 }
 
 .container2 {
-    background-image: url(/imgs/tesla.jfif);
+    background-image: url(imgs/tesla.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -165,7 +165,7 @@ table {
 }
 
 .container3 {
-    background-image: url(/imgs/telas.jfif);
+    background-image: url(imgs/telas.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -175,7 +175,7 @@ table {
 }
 
 .container4 {
-    background-image: url(/imgs/teslax.jfif);
+    background-image: url(imgs/teslax.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -185,7 +185,7 @@ table {
 }
 
 .container5 {
-    background-image: url(/imgs/solar-panels.jfif);
+    background-image: url(imgs/solar-panels.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -195,7 +195,7 @@ table {
 }
 
 .container6 {
-    background-image: url(/imgs/solar-roof.webp);
+    background-image: url(imgs/solar-roof.webp);
     background-position: center;
     background-size: cover;
     display: flex;
