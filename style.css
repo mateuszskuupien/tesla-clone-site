@@ -1,84 +1,16 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -144,74 +76,53 @@ table {
     height: 1000px;
 }
 
-.container1 {
-    background-image: url(imgs/tesla3.jfif);
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7 {
     background-position: center;
     background-size: cover;
     display: flex;
     text-align: center;
     flex-direction: column;
     line-height: 40px;
+}
+
+.container1 {
+    background-image: url('imgs/tesla3.jfif');
+
 }
 
 .container2 {
-    background-image: url(imgs/tesla.jfif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/tesla.jpg');
+
 }
 
 .container3 {
-    background-image: url(imgs/teslas.jfif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/teslas.jpg');
+    ;
 }
 
 .container4 {
-    background-image: url(imgs/teslax.jfif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/teslax.jpg');
+
 }
 
 .container5 {
-    background-image: url(imgs/solar-panels.jfif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/solar-panels.jpg');
+
 }
 
 .container6 {
-    background-image: url(imgs/solar-roof.webp);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/solar-roof.jpg');
+
 }
 
 .container7 {
-    background-image: url(imgs/accesories.jfif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 40px;
+    background-image: url('imgs/accesories.jfif');
 }
 
 /* NAVIGATION START*/
@@ -227,7 +138,8 @@ nav {
     font-size: 0.9em;
 }
 
-.nav-link {
+.nav-link,
+.nav-link-menu {
     color: rgb(28, 28, 28);
     text-align: center;
     padding: 6px 12px;
@@ -253,7 +165,8 @@ nav {
 
 /* TESLA LOGO BRAND */
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link-menu:hover {
     background-color: rgba(116, 116, 116, 0.1);
     border-radius: 5px;
 }
@@ -301,15 +214,14 @@ p {
     font-size: 0.9em;
     font-weight: 600;
     background-color: rgba(23, 26, 32, 0.8);
-    backdrop-filter: blur(8px);
     color: white;
     border: none;
     border-radius: 5px;
+    width: 135px;
 }
 
 .shop-now {
     background-color: rgba(13, 13, 13, 0.949);
-    padding: 0px 100px;
 }
 
 .existing-inventory,
@@ -320,10 +232,10 @@ p {
     font-size: 0.9em;
     font-weight: 600;
     background-color: rgba(242, 242, 242, 0.847);
-    backdrop-filter: blur(8px);
     color: rgba(23, 26, 32, 0.907);
     border: none;
     border-radius: 5px;
+    width: 135px;
 }
 
 /* CONTENT ON IMAGES END */
@@ -344,3 +256,101 @@ footer {
 }
 
 /* FOOTER */
+
+/* MEDIA QUERIES */
+
+@media (max-width:1200px) {
+    .tesla-logo {
+        padding-left: 22px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .nav-link-menu {
+        background-color: rgb(95, 95, 95, 0.2);
+        border-radius: 5px;
+    }
+
+    .nav-link-menu:hover {
+        background-color: rgba(69, 69, 69, 0.2);
+        transition: 0.5s;
+    }
+}
+
+@media (max-width:650px) {
+    .button-section {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .existing-inventory,
+    .custom-order,
+    .order-now,
+    .learn-more,
+    .shop-now {
+        margin: 0px;
+        min-width: 50%;
+        height: fit-content;
+    }
+
+    .existing-inventory,
+    .learn-more {
+        margin-top: 10px;
+    }
+
+    .custom-order,
+    .order-now {
+        margin-bottom: 10px;
+    }
+
+    .container1 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/9160c5a3-b818-42dd-bb98-b8597948c636/bvlatuR/std/1927x4096/M3-Homepage-Mobile-LHD');
+    }
+
+    .container2 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3304be3b-dd0a-4128-9c26-eb61c0b98d61/bvlatuR/std/0x0/3304be3b-dd0a-4128-9c26-eb61c0b98d61');
+    }
+
+    .container3 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8138ba80-06f8-4bda-8bcd-a076a44b00f7/bvlatuR/std/1928x4096/Homepage-Model-S-Mobile-LHD');
+    }
+
+    .container4 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/7d0fc315-dd4c-42f3-b9e1-a98f488f1e9a/bvlatuR/std/1927x4096/Homepage-Model-X-Mobile-LHD');
+
+    }
+
+    .container5 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/066f19b7-d68e-45e2-8575-ad0a6f8375a8/bvlatuR/std/600x1576/_25-HP-SolarPanels-M');
+    }
+
+    .container6 {
+        background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e5c48745-ec05-4488-9585-5b3daf8075ac/bvlatuR/std/750x1624/Homepage-SolarRoof-Mobile-Global?quality=auto-medium&format=auto');
+    }
+
+    h1 {
+        margin-top: 200px;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5,
+    .container6,
+    .container7 {
+        height: 856px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .footer-link {
+        line-height: 25px;
+    }
+}
+
+
+/* MEDIA QUERIES */
