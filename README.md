@@ -1,6 +1,6 @@
 <h1>Tesla Clone Site</h1>
 
-This is my first mini project. Currently done the Bootstrap section in Colt Steele Web Developer Course. I attempted recreating Tesla Official website. Didn't include JS, because I still didn't get to the part with Java Script on the course. <b>THIS IS ONLY FOR MY PRACTICE!</b> Please take a look at my code. 
+This is my first project - attempted to recreate Tesla official website. Site is also responsible on any device. <b>THIS IS ONLY FOR MY PRACTICE!</b> 
   
   <h2>Links</h2>
   https://mateuszskuupien.github.io/tesla-site/
@@ -31,8 +31,3 @@ This is my first mini project. Currently done the Bootstrap section in Colt Stee
   <ul>Writing cleaner code</ul>
   <ul>Making responsive website</ul>
   <ul>Animate site-content</ul>
-  
-  <h2>Conclusion</h2>
-  To emphasize, this is my first *project*. All I wanted is to practice my HTML&CSS skills. Im currently at 20% of Bootcamp and I'm newbie. This project will be probably deleted later after some advices and remarks. Thanks to everyone who found a minute to take a look at my code. All I want is constructive criticism and comments about my code and development behavior.
-  
-  <h3><i>Post Scriptum</i></h3> This is also my first time on github. These are my first steps, so I'll be grateful for some advice and remarks! Thank you so much - please be easygoing.
