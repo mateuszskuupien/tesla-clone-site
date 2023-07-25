@@ -1,6 +1,6 @@
-<h1>Tesla Clone Site</h1>
+<h1>Official Tesla Site Clone</h1>
 
-This is my first project - attempted to recreate Tesla official website. Site is also responsible on any device. <b>THIS IS ONLY FOR MY PRACTICE!</b> 
+This is my first project - attempted to recreate Tesla official website. Site is also responsible on any device.
   
   <h2>Links</h2>
   https://mateuszskuupien.github.io/tesla-site/
